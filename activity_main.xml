@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+
+
+
+            android:src="@drawable/cafe" />
+    <CheckBox
+
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="cafe      "
+        android:id="@+id/cb_cafe"
+        android:layout_weight="2"
+        android:layout_width="0dp"/>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="0.5   quantidade   "
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            />
+
+        <EditText
+            android:layout_weight="4"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:id="@+id/et_qcafe"
+            android:hint="digite"
+            android:inputType="numberDecimal"/>
+
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+
+
+        android:src="@drawable/gel" />
+    <CheckBox
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="gelado "
+        android:id="@+id/cb_gel"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1.10   quantidade   "/>
+    <EditText
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minWidth="50sp"
+        android:id="@+id/et_qgel"
+        android:hint="digite"
+        android:inputType="numberDecimal"/>
+</LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+
+
+            android:src="@drawable/leite" />
+    <CheckBox
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="leite          "
+        android:id="@+id/cb_leite"
+        android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2.5   quantidade       "/>
+        <EditText
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:id="@+id/et_qleite"
+            android:hint="digite"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+
+
+            android:src="@drawable/suco" />
+
+        <CheckBox
+            android:id="@+id/cb_suco"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="suco        "
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="3.5   quantidade      "/>
+        <EditText
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:id="@+id/et_qsuco"
+            android:hint="digite"
+            android:inputType="numberDecimal"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pedir"
+        android:id="@+id/bt_p"/>
+
+</LinearLayout>
